@@ -17,7 +17,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"testtest");
+    if (IS_PRODUCTION) {
+        NSLog(@"스토어 배포!!");
+        if (SERVER_MODE == 0) {
+            NSLog(@"운영서버!!");
+        } else if(SERVER_MODE == 1) {
+            NSLog(@"검증서버!!");
+        } else {
+            NSLog(@"개발서버!!");
+        }
+    } else {
+        NSLog(@"내부 배포!!");
+        if (SERVER_MODE == 0) {
+            NSLog(@"운영서버!!");
+        } else if(SERVER_MODE == 1) {
+            NSLog(@"검증서버!!");
+        } else {
+            NSLog(@"개발서버!!");
+        }
+    }
     return YES;
 }
 
