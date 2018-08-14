@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1A2A7021229F8400467CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DBA2122546000AA9FC0 /* ViewController.m */; };
+		9E1A2A7121229F8400467CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DC52122546200AA9FC0 /* main.m */; };
+		9E1A2A7221229F8400467CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DB72122546000AA9FC0 /* AppDelegate.m */; };
+		9E1A2A7521229F8400467CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DC12122546200AA9FC0 /* LaunchScreen.storyboard */; };
+		9E1A2A7621229F8400467CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBF2122546200AA9FC0 /* Assets.xcassets */; };
+		9E1A2A7721229F8400467CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBC2122546000AA9FC0 /* Main.storyboard */; };
 		9E50B7B7212295CE00D1C894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DBA2122546000AA9FC0 /* ViewController.m */; };
 		9E50B7B8212295CE00D1C894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DC52122546200AA9FC0 /* main.m */; };
 		9E50B7B9212295CE00D1C894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DB72122546000AA9FC0 /* AppDelegate.m */; };
@@ -28,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test Ent Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1A2A7C21229F8400467CAF /* InfoEntStg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoEntStg.plist; path = "/Users/wankiljung/Desktop/git_test/Git Test/InfoEntStg.plist"; sourceTree = "<absolute>"; };
 		9E50B7C2212295CE00D1C894 /* Git Test Ent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test Ent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E50B7C3212295CE00D1C894 /* InfoEnt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoEnt.plist; path = "/Users/wankiljung/Desktop/git_test/Git Test/InfoEnt.plist"; sourceTree = "<absolute>"; };
 		9E787DB32122546000AA9FC0 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9E1A2A7321229F8400467CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E50B7BA212295CE00D1C894 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -83,6 +98,7 @@
 				9E787DB32122546000AA9FC0 /* Git Test.app */,
 				9E50B7C2212295CE00D1C894 /* Git Test Ent.app */,
 				9ECBBA4B21229CB7000BAEFC /* Git Test Ent Dev.app */,
+				9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +117,7 @@
 				9E787DC52122546200AA9FC0 /* main.m */,
 				9E50B7C3212295CE00D1C894 /* InfoEnt.plist */,
 				9ECBBA4C21229CB7000BAEFC /* InfoEntDev.plist */,
+				9E1A2A7C21229F8400467CAF /* InfoEntStg.plist */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -108,6 +125,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9E1A2A6E21229F8400467CAF /* Git Test Ent Stg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1A2A7821229F8400467CAF /* Build configuration list for PBXNativeTarget "Git Test Ent Stg" */;
+			buildPhases = (
+				9E1A2A6F21229F8400467CAF /* Sources */,
+				9E1A2A7321229F8400467CAF /* Frameworks */,
+				9E1A2A7421229F8400467CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Git Test Ent Stg";
+			productName = "Git Test";
+			productReference = 9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9E50B7B5212295CE00D1C894 /* Git Test Ent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E50B7BF212295CE00D1C894 /* Build configuration list for PBXNativeTarget "Git Test Ent" */;
@@ -188,12 +222,23 @@
 			targets = (
 				9E787DB22122546000AA9FC0 /* Git Test */,
 				9E50B7B5212295CE00D1C894 /* Git Test Ent */,
+				9E1A2A6E21229F8400467CAF /* Git Test Ent Stg */,
 				9ECBBA3E21229CB7000BAEFC /* Git Test Ent Dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9E1A2A7421229F8400467CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A2A7521229F8400467CAF /* LaunchScreen.storyboard in Resources */,
+				9E1A2A7621229F8400467CAF /* Assets.xcassets in Resources */,
+				9E1A2A7721229F8400467CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E50B7BB212295CE00D1C894 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +272,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9E1A2A6F21229F8400467CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1A2A7021229F8400467CAF /* ViewController.m in Sources */,
+				9E1A2A7121229F8400467CAF /* main.m in Sources */,
+				9E1A2A7221229F8400467CAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E50B7B6212295CE00D1C894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +334,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9E1A2A7921229F8400467CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/InfoEntStg.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E1A2A7A21229F8400467CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/InfoEntStg.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		9E50B7C0212295CE00D1C894 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -286,6 +389,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=0",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEnt.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +414,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=0",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEnt.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,6 +547,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GXZS6A3RC4;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_PRODUCTION=1",
+					"SERVER_MODE=0",
+				);
 				INFOPLIST_FILE = "Git Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,6 +572,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GXZS6A3RC4;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PRODUCTION=1",
+					"SERVER_MODE=0",
+				);
 				INFOPLIST_FILE = "Git Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -472,6 +595,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=2",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -491,6 +620,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"IS_PRODUCTION=0",
+					"SERVER_MODE=2",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,6 +639,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9E1A2A7821229F8400467CAF /* Build configuration list for PBXNativeTarget "Git Test Ent Stg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1A2A7921229F8400467CAF /* Debug */,
+				9E1A2A7A21229F8400467CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9E50B7BF212295CE00D1C894 /* Build configuration list for PBXNativeTarget "Git Test Ent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
