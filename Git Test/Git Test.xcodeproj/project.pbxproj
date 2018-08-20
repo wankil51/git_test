@@ -13,12 +13,22 @@
 		9E1A2A7521229F8400467CAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DC12122546200AA9FC0 /* LaunchScreen.storyboard */; };
 		9E1A2A7621229F8400467CAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBF2122546200AA9FC0 /* Assets.xcassets */; };
 		9E1A2A7721229F8400467CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBC2122546000AA9FC0 /* Main.storyboard */; };
+		9E2012FC212A3DDA0017D0C1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2012FB212A3DDA0017D0C1 /* NotificationCenter.framework */; };
+		9E201300212A3DDA0017D0C1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2012FF212A3DDA0017D0C1 /* TodayViewController.m */; };
+		9E201303212A3DDA0017D0C1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E201301212A3DDA0017D0C1 /* MainInterface.storyboard */; };
+		9E201307212A3DDA0017D0C1 /* NotificationBar.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E2012F9212A3DDA0017D0C1 /* NotificationBar.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E20130E212A3E0E0017D0C1 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2012FF212A3DDA0017D0C1 /* TodayViewController.m */; };
+		9E201310212A3E0E0017D0C1 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2012FB212A3DDA0017D0C1 /* NotificationCenter.framework */; };
+		9E201312212A3E0E0017D0C1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E201301212A3DDA0017D0C1 /* MainInterface.storyboard */; };
 		9E50B7B7212295CE00D1C894 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DBA2122546000AA9FC0 /* ViewController.m */; };
 		9E50B7B8212295CE00D1C894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DC52122546200AA9FC0 /* main.m */; };
 		9E50B7B9212295CE00D1C894 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DB72122546000AA9FC0 /* AppDelegate.m */; };
 		9E50B7BC212295CE00D1C894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DC12122546200AA9FC0 /* LaunchScreen.storyboard */; };
 		9E50B7BD212295CE00D1C894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBF2122546200AA9FC0 /* Assets.xcassets */; };
 		9E50B7BE212295CE00D1C894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBC2122546000AA9FC0 /* Main.storyboard */; };
+		9E52C703212A438F00667F67 /* NotificationBar Ent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E52C705212A439600667F67 /* NotificationBar Ent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E52C707212A439A00667F67 /* NotificationBar Ent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9E787DB82122546000AA9FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DB72122546000AA9FC0 /* AppDelegate.m */; };
 		9E787DBB2122546000AA9FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E787DBA2122546000AA9FC0 /* ViewController.m */; };
 		9E787DBE2122546000AA9FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBC2122546000AA9FC0 /* Main.storyboard */; };
@@ -33,9 +43,101 @@
 		9ECBBA4721229CB7000BAEFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E787DBC2122546000AA9FC0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9E201305212A3DDA0017D0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E787DAB2122546000AA9FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2012F8212A3DDA0017D0C1;
+			remoteInfo = NotificationBar;
+		};
+		9E20131C212A3F150017D0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E787DAB2122546000AA9FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E20130C212A3E0E0017D0C1;
+			remoteInfo = "NotificationBar Ent";
+		};
+		9E20131E212A3F1D0017D0C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E787DAB2122546000AA9FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E20130C212A3E0E0017D0C1;
+			remoteInfo = "NotificationBar Ent";
+		};
+		9E52C701212A432700667F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E787DAB2122546000AA9FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E20130C212A3E0E0017D0C1;
+			remoteInfo = "NotificationBar Ent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E20130B212A3DDA0017D0C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E201307212A3DDA0017D0C1 /* NotificationBar.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E52C704212A438F00667F67 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E52C703212A438F00667F67 /* NotificationBar Ent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E52C706212A439600667F67 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E52C705212A439600667F67 /* NotificationBar Ent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E52C708212A439A00667F67 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E52C707212A439A00667F67 /* NotificationBar Ent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test Ent Stg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1A2A7C21229F8400467CAF /* InfoEntStg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoEntStg.plist; path = "/Users/wankiljung/Desktop/git_test/Git Test/InfoEntStg.plist"; sourceTree = "<absolute>"; };
+		9E2012F9212A3DDA0017D0C1 /* NotificationBar.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationBar.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2012FB212A3DDA0017D0C1 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		9E2012FE212A3DDA0017D0C1 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		9E2012FF212A3DDA0017D0C1 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		9E201302212A3DDA0017D0C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9E201304212A3DDA0017D0C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NotificationBar Ent.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E201317212A3E0E0017D0C1 /* NotificationBar copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NotificationBar copy-Info.plist"; path = "/Users/wankiljung/Desktop/git_test/Git Test/NotificationBar copy-Info.plist"; sourceTree = "<absolute>"; };
+		9E201318212A3E560017D0C1 /* Git Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Git Test.entitlements"; sourceTree = "<group>"; };
+		9E201319212A3E590017D0C1 /* NotificationBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationBar.entitlements; sourceTree = "<group>"; };
+		9E20131A212A3E830017D0C1 /* Git Test Ent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Git Test Ent.entitlements"; sourceTree = "<group>"; };
+		9E20131B212A3E850017D0C1 /* NotificationBar Ent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NotificationBar Ent.entitlements"; sourceTree = "<group>"; };
+		9E201320212A40B10017D0C1 /* Git Test Ent Stg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Git Test Ent Stg.entitlements"; sourceTree = "<group>"; };
+		9E201321212A40B60017D0C1 /* Git Test Ent Dev.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Git Test Ent Dev.entitlements"; sourceTree = "<group>"; };
 		9E50B7C2212295CE00D1C894 /* Git Test Ent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test Ent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E50B7C3212295CE00D1C894 /* InfoEnt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoEnt.plist; path = "/Users/wankiljung/Desktop/git_test/Git Test/InfoEnt.plist"; sourceTree = "<absolute>"; };
 		9E787DB32122546000AA9FC0 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +159,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2012F6212A3DDA0017D0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2012FC212A3DDA0017D0C1 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E20130F212A3E0E0017D0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E201310212A3E0E0017D0C1 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,11 +202,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E2012FA212A3DDA0017D0C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E2012FB212A3DDA0017D0C1 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E2012FD212A3DDA0017D0C1 /* NotificationBar */ = {
+			isa = PBXGroup;
+			children = (
+				9E201319212A3E590017D0C1 /* NotificationBar.entitlements */,
+				9E20131B212A3E850017D0C1 /* NotificationBar Ent.entitlements */,
+				9E2012FE212A3DDA0017D0C1 /* TodayViewController.h */,
+				9E2012FF212A3DDA0017D0C1 /* TodayViewController.m */,
+				9E201301212A3DDA0017D0C1 /* MainInterface.storyboard */,
+				9E201304212A3DDA0017D0C1 /* Info.plist */,
+			);
+			path = NotificationBar;
+			sourceTree = "<group>";
+		};
 		9E787DAA2122546000AA9FC0 = {
 			isa = PBXGroup;
 			children = (
 				9E787DB52122546000AA9FC0 /* Git Test */,
+				9E2012FD212A3DDA0017D0C1 /* NotificationBar */,
+				9E2012FA212A3DDA0017D0C1 /* Frameworks */,
 				9E787DB42122546000AA9FC0 /* Products */,
+				9E201317212A3E0E0017D0C1 /* NotificationBar copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +241,8 @@
 				9E50B7C2212295CE00D1C894 /* Git Test Ent.app */,
 				9ECBBA4B21229CB7000BAEFC /* Git Test Ent Dev.app */,
 				9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */,
+				9E2012F9212A3DDA0017D0C1 /* NotificationBar.appex */,
+				9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +250,10 @@
 		9E787DB52122546000AA9FC0 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				9E201321212A40B60017D0C1 /* Git Test Ent Dev.entitlements */,
+				9E201320212A40B10017D0C1 /* Git Test Ent Stg.entitlements */,
+				9E201318212A3E560017D0C1 /* Git Test.entitlements */,
+				9E20131A212A3E830017D0C1 /* Git Test Ent.entitlements */,
 				9E787DB62122546000AA9FC0 /* AppDelegate.h */,
 				9E787DB72122546000AA9FC0 /* AppDelegate.m */,
 				9E787DB92122546000AA9FC0 /* ViewController.h */,
@@ -132,15 +280,51 @@
 				9E1A2A6F21229F8400467CAF /* Sources */,
 				9E1A2A7321229F8400467CAF /* Frameworks */,
 				9E1A2A7421229F8400467CAF /* Resources */,
+				9E52C706212A439600667F67 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E20131D212A3F150017D0C1 /* PBXTargetDependency */,
 			);
 			name = "Git Test Ent Stg";
 			productName = "Git Test";
 			productReference = 9E1A2A7B21229F8400467CAF /* Git Test Ent Stg.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9E2012F8212A3DDA0017D0C1 /* NotificationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E20130A212A3DDA0017D0C1 /* Build configuration list for PBXNativeTarget "NotificationBar" */;
+			buildPhases = (
+				9E2012F5212A3DDA0017D0C1 /* Sources */,
+				9E2012F6212A3DDA0017D0C1 /* Frameworks */,
+				9E2012F7212A3DDA0017D0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationBar;
+			productName = NotificationBar;
+			productReference = 9E2012F9212A3DDA0017D0C1 /* NotificationBar.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9E20130C212A3E0E0017D0C1 /* NotificationBar Ent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E201313212A3E0E0017D0C1 /* Build configuration list for PBXNativeTarget "NotificationBar Ent" */;
+			buildPhases = (
+				9E20130D212A3E0E0017D0C1 /* Sources */,
+				9E20130F212A3E0E0017D0C1 /* Frameworks */,
+				9E201311212A3E0E0017D0C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotificationBar Ent";
+			productName = NotificationBar;
+			productReference = 9E201316212A3E0E0017D0C1 /* NotificationBar Ent.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		9E50B7B5212295CE00D1C894 /* Git Test Ent */ = {
 			isa = PBXNativeTarget;
@@ -149,10 +333,12 @@
 				9E50B7B6212295CE00D1C894 /* Sources */,
 				9E50B7BA212295CE00D1C894 /* Frameworks */,
 				9E50B7BB212295CE00D1C894 /* Resources */,
+				9E52C704212A438F00667F67 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E52C702212A432700667F67 /* PBXTargetDependency */,
 			);
 			name = "Git Test Ent";
 			productName = "Git Test";
@@ -166,10 +352,12 @@
 				9E787DAF2122546000AA9FC0 /* Sources */,
 				9E787DB02122546000AA9FC0 /* Frameworks */,
 				9E787DB12122546000AA9FC0 /* Resources */,
+				9E20130B212A3DDA0017D0C1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E201306212A3DDA0017D0C1 /* PBXTargetDependency */,
 			);
 			name = "Git Test";
 			productName = "Git Test";
@@ -183,10 +371,12 @@
 				9ECBBA3F21229CB7000BAEFC /* Sources */,
 				9ECBBA4321229CB7000BAEFC /* Frameworks */,
 				9ECBBA4421229CB7000BAEFC /* Resources */,
+				9E52C708212A439A00667F67 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E20131F212A3F1D0017D0C1 /* PBXTargetDependency */,
 			);
 			name = "Git Test Ent Dev";
 			productName = "Git Test";
@@ -202,8 +392,49 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Wankil Jung";
 				TargetAttributes = {
+					9E1A2A6E21229F8400467CAF = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9E2012F8212A3DDA0017D0C1 = {
+						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9E20130C212A3E0E0017D0C1 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9E50B7B5212295CE00D1C894 = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					9E787DB22122546000AA9FC0 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					9ECBBA3E21229CB7000BAEFC = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -221,7 +452,9 @@
 			projectRoot = "";
 			targets = (
 				9E787DB22122546000AA9FC0 /* Git Test */,
+				9E2012F8212A3DDA0017D0C1 /* NotificationBar */,
 				9E50B7B5212295CE00D1C894 /* Git Test Ent */,
+				9E20130C212A3E0E0017D0C1 /* NotificationBar Ent */,
 				9E1A2A6E21229F8400467CAF /* Git Test Ent Stg */,
 				9ECBBA3E21229CB7000BAEFC /* Git Test Ent Dev */,
 			);
@@ -236,6 +469,22 @@
 				9E1A2A7521229F8400467CAF /* LaunchScreen.storyboard in Resources */,
 				9E1A2A7621229F8400467CAF /* Assets.xcassets in Resources */,
 				9E1A2A7721229F8400467CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2012F7212A3DDA0017D0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E201303212A3DDA0017D0C1 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E201311212A3E0E0017D0C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E201312212A3E0E0017D0C1 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +531,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E2012F5212A3DDA0017D0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E201300212A3DDA0017D0C1 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E20130D212A3E0E0017D0C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E20130E212A3E0E0017D0C1 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9E50B7B6212295CE00D1C894 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,7 +579,38 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9E201306212A3DDA0017D0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2012F8212A3DDA0017D0C1 /* NotificationBar */;
+			targetProxy = 9E201305212A3DDA0017D0C1 /* PBXContainerItemProxy */;
+		};
+		9E20131D212A3F150017D0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E20130C212A3E0E0017D0C1 /* NotificationBar Ent */;
+			targetProxy = 9E20131C212A3F150017D0C1 /* PBXContainerItemProxy */;
+		};
+		9E20131F212A3F1D0017D0C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E20130C212A3E0E0017D0C1 /* NotificationBar Ent */;
+			targetProxy = 9E20131E212A3F1D0017D0C1 /* PBXContainerItemProxy */;
+		};
+		9E52C702212A432700667F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E20130C212A3E0E0017D0C1 /* NotificationBar Ent */;
+			targetProxy = 9E52C701212A432700667F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		9E201301212A3DDA0017D0C1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E201302212A3DDA0017D0C1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		9E787DBC2122546000AA9FC0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -338,14 +634,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent Stg.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=1",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntStg.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -354,7 +651,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "605f495c-0d05-4154-b29b-873cc84466e0";
+				PROVISIONING_PROFILE_SPECIFIER = LPDevProv;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -363,12 +661,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent Stg.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=1",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntStg.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,7 +676,96 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "eba66b13-6a52-4f52-b3ae-6a6eea438414";
+				PROVISIONING_PROFILE_SPECIFIER = LPAppDevDist;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E201308212A3DDA0017D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationBar/NotificationBar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GXZS6A3RC4;
+				INFOPLIST_FILE = NotificationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.appcard.NotificationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9a19548a-00ab-49b1-9e7f-c4f73b9ccdee";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lottecard.appcard.NotificationBar dev";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E201309212A3DDA0017D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationBar/NotificationBar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GXZS6A3RC4;
+				INFOPLIST_FILE = NotificationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.appcard.NotificationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dd84c4b8-95db-4581-9b71-fe73a0c5e450";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lottecard.appcard.NotificationBar App Store";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E201314212A3E0E0017D0C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "NotificationBar/NotificationBar Ent.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CVMLZ85E74;
+				INFOPLIST_FILE = "NotificationBar copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev.NotificationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6d6f3b9d-24f1-49bf-b4ee-c4a265e2dc6a";
+				PROVISIONING_PROFILE_SPECIFIER = LPDevExtProv;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E201315212A3E0E0017D0C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "NotificationBar/NotificationBar Ent.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CVMLZ85E74;
+				INFOPLIST_FILE = "NotificationBar copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev.NotificationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b77a60ad-63c0-4070-80f9-fb48084d1017";
+				PROVISIONING_PROFILE_SPECIFIER = LPAppExtDev_Dist;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -386,14 +774,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=0",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEnt.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -402,7 +791,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "605f495c-0d05-4154-b29b-873cc84466e0";
+				PROVISIONING_PROFILE_SPECIFIER = LPDevProv;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -411,12 +801,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=0",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEnt.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,7 +816,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "eba66b13-6a52-4f52-b3ae-6a6eea438414";
+				PROVISIONING_PROFILE_SPECIFIER = LPAppDevDist;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -544,8 +936,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GXZS6A3RC4;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -560,7 +953,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.appcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "3680cd8f-3164-49df-b20e-fd350b85c3d9";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lottecard.appcard dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -569,8 +963,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GXZS6A3RC4;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"IS_PRODUCTION=1",
@@ -583,7 +978,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.appcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "ecee54ae-3e5f-4f41-806a-ffee25a8b76c";
+				PROVISIONING_PROFILE_SPECIFIER = "com.lottecard.appcard AppStore";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -592,14 +988,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent Dev.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=2",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,7 +1005,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "605f495c-0d05-4154-b29b-873cc84466e0";
+				PROVISIONING_PROFILE_SPECIFIER = LPDevProv;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -617,12 +1015,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Git Test/Git Test Ent Dev.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CVMLZ85E74;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"IS_PRODUCTION=0",
 					"SERVER_MODE=2",
+					"IS_PRODUCTION=0",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/InfoEntDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,7 +1030,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lottecard.lp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "eba66b13-6a52-4f52-b3ae-6a6eea438414";
+				PROVISIONING_PROFILE_SPECIFIER = LPAppDevDist;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -644,6 +1044,24 @@
 			buildConfigurations = (
 				9E1A2A7921229F8400467CAF /* Debug */,
 				9E1A2A7A21229F8400467CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E20130A212A3DDA0017D0C1 /* Build configuration list for PBXNativeTarget "NotificationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E201308212A3DDA0017D0C1 /* Debug */,
+				9E201309212A3DDA0017D0C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E201313212A3E0E0017D0C1 /* Build configuration list for PBXNativeTarget "NotificationBar Ent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E201314212A3E0E0017D0C1 /* Debug */,
+				9E201315212A3E0E0017D0C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
